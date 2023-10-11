@@ -7,13 +7,16 @@
             "technologies": [
                 "JavaScript",
                 "CSS",
-                "HTML"
+                "HTML",
+                "Bootstrap"
             ],
             "live_link": "/link-here",
             "github_link": "/github-link-here",
             "image_urls": [
                 "https://placehold.co/550",
-                "https://placehold.co/1200x550"
+                "https://placehold.co/1200x550",
+                "https://placehold.co/1200x500",
+                "https://placehold.co/1200x450"
             ]
         },
         {
@@ -28,8 +31,9 @@
             "live_link": "/second-link-here",
             "github_link": "/second-github-link-here",
             "image_urls": [
-                "https://placehold.co/550",
-                "https://placehold.co/1200x550"
+                "https://placehold.co/400",
+                "https://placehold.co/1200x450",
+                "https://placehold.co/1200x500"
             ]
         }
     ]
