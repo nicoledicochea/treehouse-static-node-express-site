@@ -1,0 +1,36 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "project_name": "name",
+            "description": "lorem ipsum blah blah",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "/link-here",
+            "github_link": "/github-link-here",
+            "image_urls": [
+                "https://placehold.co/550",
+                "https://placehold.co/1200x550"
+            ]
+        },
+        {
+            "id": "1",
+            "project_name": "name1",
+            "description": "second lorem ipsum blah blah",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "/second-link-here",
+            "github_link": "/second-github-link-here",
+            "image_urls": [
+                "https://placehold.co/550",
+                "https://placehold.co/1200x550"
+            ]
+        }
+    ]
+}
