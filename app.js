@@ -27,7 +27,8 @@ app.get('/projects/:id', (req, res, next) => {
     } else {
         const err = new Error()
         err.status = 404
-        err.message =  " Oops. Looks like that project doesn't exist."
+        err.message =  "Oops. Looks like that project doesn't exist."
+        res.render('error', { err })
         next(err)
     }
 })
@@ -39,12 +40,14 @@ app.use((req, res, next) => {
     const err = new Error()
     err.status = 404
     err.message = "Oops. Looks like that page doesn't exist."
+    res.render('page-not-found', { err })
     next(err)
 })
 // global error
 app.use((err, req, res, next) => {
     err.status = err.status || 500
     err.message = err.message || "Oops. Looks like something went wrong on the server." 
+    res.render('error', { err })
     next(err)
 })
 

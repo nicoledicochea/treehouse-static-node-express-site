@@ -1,0 +1,17 @@
+extends layout.pug
+
+block content
+    nav.nav
+        a(href='/')
+            span &larr;
+            |  Back
+    article.error
+        .inner-wrapper.flex-row-wrap.two-col
+        .box.stack
+            h2= err.status
+            h3= err.message
+            p= err.stack
+        nav.nav
+            a(href='/')
+                span &larr;
+                |  Back

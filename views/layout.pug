@@ -14,7 +14,8 @@ html(lang="en" dir="ltr")
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src='https://placehold.it/550x350', alt='')
+          a(href="/")
+            img.thumbnail(src='/images/about.png', alt='Photo of Nicole')
         .dev-intro-box
 
           //- Replace with your name
@@ -32,7 +33,9 @@ html(lang="en" dir="ltr")
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
           //- Replace with your name — this is for the mobile layout
-          span Name
+          span
+            a(href="/")
+              img.logo(src='/images/logo.png', alt='Photo of Nicole')
 
       block content
 

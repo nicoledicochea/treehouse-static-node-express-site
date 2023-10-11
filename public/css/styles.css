@@ -362,3 +362,35 @@ nav a span {
     max-width: 1200px;
   }
 }
+
+
+
+/* 
+  Error page styles
+*/
+
+.stack p {
+  word-wrap: break-word;
+  font-size: 14px;
+  background-color: whitesmoke;
+  padding: 50px;
+}
+
+.error h2 {
+  font-size: 32px;
+}
+
+.error h3 {
+  font-weight: normal;
+  color: #666;
+}
+
+/* 
+  Logo styles
+*/
+
+.logo {
+  height: 25px;
+  margin: 0px;
+  padding: 0px;
+}
