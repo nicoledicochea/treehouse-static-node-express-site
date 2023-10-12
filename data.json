@@ -2,16 +2,15 @@
     "projects": [
         {
             "id": "0",
-            "project_name": "name",
-            "description": "lorem ipsum blah blah",
+            "project_name": "Random Quote Generator",
+            "description": "This quote generator prints a new random quote to the page every 10 seconds or when a user clicks the 'show another quote' button.",
             "technologies": [
                 "JavaScript",
                 "CSS",
-                "HTML",
-                "Bootstrap"
+                "HTML"
             ],
-            "live_link": "/link-here",
-            "github_link": "/github-link-here",
+            "live_link": "https://nicoledicochea.github.io/treehouse-random-quote-generator/",
+            "github_link": "https://github.com/nicoledicochea/treehouse-random-quote-generator",
             "image_urls": [
                 "https://placehold.co/550",
                 "https://placehold.co/1200x550",
@@ -21,15 +20,66 @@
         },
         {
             "id": "1",
-            "project_name": "name1",
-            "description": "second lorem ipsum blah blah",
+            "project_name": "Data Pagination and Filtering",
+            "description": "This project is a practice in improving user experience, presenting student data in a way that is easy to navigate, view, and search.",
             "technologies": [
                 "JavaScript",
                 "CSS",
                 "HTML"
             ],
-            "live_link": "/second-link-here",
-            "github_link": "/second-github-link-here",
+            "live_link": "https://nicoledicochea.github.io/treehouse-data-pagination/",
+            "github_link": "https://github.com/nicoledicochea/treehouse-data-pagination",
+            "image_urls": [
+                "https://placehold.co/400",
+                "https://placehold.co/1200x450",
+                "https://placehold.co/1200x500"
+            ]
+        },
+        {
+            "id": "2",
+            "project_name": "Interactive Registration Form",
+            "description": "Forms are everywhere on the web. They can easily be a cause of frustration for users. This project emphasizes creating forms that are engaging, interactive, and easy to use. It contains features such as real-time error messaging and conditional error messages.",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "https://nicoledicochea.github.io/treehouse-interactive-form/",
+            "github_link": "https://github.com/nicoledicochea/treehouse-data-pagination",
+            "image_urls": [
+                "https://placehold.co/400",
+                "https://placehold.co/1200x450",
+                "https://placehold.co/1200x500"
+            ]
+        },
+        {
+            "id": "3",
+            "project_name": "Phrase Hunter",
+            "description": "Can you guess the phrase before your lives run out? Phrase Hunter is an Object-Oriented Programming browser-based game. Give it a try!",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "https://nicoledicochea.github.io/treehouse-oop-game-show-app/",
+            "github_link": "https://github.com/nicoledicochea/treehouse-oop-game-show-app",
+            "image_urls": [
+                "https://placehold.co/400",
+                "https://placehold.co/1200x450",
+                "https://placehold.co/1200x500"
+            ]
+        },
+        {
+            "id": "4",
+            "project_name": "Employee Directory",
+            "description": "Using a third-party API, random user data is generated and used to populate the employee directory.",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "https://nicoledicochea.github.io/treehouse-public-api-requests/",
+            "github_link": "https://github.com/nicoledicochea/treehouse-public-api-requests",
             "image_urls": [
                 "https://placehold.co/400",
                 "https://placehold.co/1200x450",
