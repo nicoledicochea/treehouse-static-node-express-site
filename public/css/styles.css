@@ -32,7 +32,8 @@ article {
 }
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h5{
@@ -233,12 +234,22 @@ nav a span {
   margin: 0 auto 8px;
 }
 
+.portfolio-intro h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 30px 0;
+}
+
 .portfolio-intro p {
   text-rendering: optimizeLegibility;
-  font-size: 125%;
+  font-size: 120%;
   margin: 0 auto;
   padding-bottom: 40px;
   border-bottom: 1px solid #eaeaea;
+  line-height: 175%;
+  /* font-family: 'Merriweather', serif; */
 }
 
 .projects-box h5 {
@@ -268,7 +279,8 @@ nav a span {
 */
 .about-intro-box p,
 .project-info-box p {
-  font-size: 125%;
+  font-size: 120%;
+  line-height: 175%;
 }
 
 .about-bio p {

@@ -4,7 +4,7 @@ html(lang="en" dir="ltr")
     meta(charset='utf-8')
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Portfolio Site
+    title Nicole Dicochea's Portfolio
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/css/normalize.css')
     link(rel='stylesheet', href='/css/styles.css')
@@ -17,14 +17,15 @@ html(lang="en" dir="ltr")
           a(href="/")
             img.thumbnail(src='/images/about.png', alt='Photo of Nicole')
         .dev-intro-box
-
-          //- Replace with your name
+        
           h5 Nicole Dicochea
 
-          //- Replace with description of who you are, what you do, and why you are so awesome
-          p Description
+          p Software engineer with a strong background in problem-solving, data analysis, and project management. 
+          
+          p With over 5 years of experience as a scientist, I have honed my skills in quickly learning new technologies, collaborating with cross-functional teams, and delivering exceptional results in fast-paced environments.
+          
+          p My goal is to contribute to impactful projects where I can apply my analytical mindset, attention to detail, and passion for creating efficient and user-friendly software solutions.
 
-          //- Add path from your '/about' route handler to the href below
           a(href='/about') Learn More &rarr;
 
     .wrapper
@@ -32,10 +33,10 @@ html(lang="en" dir="ltr")
         .header-info-box
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
-          //- Replace with your name — this is for the mobile layout
+          //- add logo for mobile layout
           span
             a(href="/")
-              img.logo(src='/images/logo.png', alt='Photo of Nicole')
+              img.logo(src='/images/logo.png', alt='Logo')
 
       block content
 
