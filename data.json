@@ -12,10 +12,9 @@
             "live_link": "https://nicoledicochea.github.io/treehouse-random-quote-generator/",
             "github_link": "https://github.com/nicoledicochea/treehouse-random-quote-generator",
             "image_urls": [
-                "https://placehold.co/550",
-                "https://placehold.co/1200x550",
-                "https://placehold.co/1200x500",
-                "https://placehold.co/1200x450"
+                "/images/quote_generator/quote_generator_thumbnail.png",
+                "/images/quote_generator/quote_generator_screenshot2.png",
+                "/images/quote_generator/quote_generator_screenshot.png"
             ]
         },
         {
@@ -30,9 +29,9 @@
             "live_link": "https://nicoledicochea.github.io/treehouse-data-pagination/",
             "github_link": "https://github.com/nicoledicochea/treehouse-data-pagination",
             "image_urls": [
-                "https://placehold.co/400",
-                "https://placehold.co/1200x450",
-                "https://placehold.co/1200x500"
+                "/images/data_pagination/data_pagination_thumbnail.png",
+                "/images/data_pagination/data_pagination_screenshot1.png",
+                "/images/data_pagination/data_pagination_screenshot2.png", "/images/data_pagination/data_pagination_screenshot3.png"
             ]
         },
         {
@@ -47,9 +46,9 @@
             "live_link": "https://nicoledicochea.github.io/treehouse-interactive-form/",
             "github_link": "https://github.com/nicoledicochea/treehouse-data-pagination",
             "image_urls": [
-                "https://placehold.co/400",
-                "https://placehold.co/1200x450",
-                "https://placehold.co/1200x500"
+                "/images/form/form_thumbnail.png",
+                "/images/form/form_screenshot1.png",
+                "/images/form/form_screenshot2.png", "/images/form/form_screenshot3.png"
             ]
         },
         {
@@ -64,9 +63,8 @@
             "live_link": "https://nicoledicochea.github.io/treehouse-oop-game-show-app/",
             "github_link": "https://github.com/nicoledicochea/treehouse-oop-game-show-app",
             "image_urls": [
-                "https://placehold.co/400",
-                "https://placehold.co/1200x450",
-                "https://placehold.co/1200x500"
+                "/images/game/game_thumbnail.png",
+                "/images/game/game_screenshot1.png", "/images/game/game_screenshot2.png"
             ]
         },
         {
@@ -81,9 +79,10 @@
             "live_link": "https://nicoledicochea.github.io/treehouse-public-api-requests/",
             "github_link": "https://github.com/nicoledicochea/treehouse-public-api-requests",
             "image_urls": [
-                "https://placehold.co/400",
-                "https://placehold.co/1200x450",
-                "https://placehold.co/1200x500"
+                "/images/api/api_thumbnail.png",
+                "/images/api/api_screenshot1.png",
+                "/images/api/api_screenshot2.png",
+                "/images/api/api_screenshot3.png"
             ]
         }
     ]
