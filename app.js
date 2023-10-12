@@ -1,5 +1,7 @@
 const express = require('express')
 const app = express()
+
+// import projects data file
 const { projects } = require('./data.json')
 
 // middleware
@@ -10,14 +12,13 @@ app.use(express.static('public'))
 app.get('/', (req, res) => {
    res.render('index', { projects }) 
 })
-
 app.get('/about', (req, res, next) => {
+    // test error for checking global error handler
     // const err = new Error()
     // err.status = 500
     // next(err)
     res.render('about') 
 })
-
 app.get('/projects/:id', (req, res, next) => {
     const projectID = req.params.id
     const project = projects[projectID]
@@ -29,7 +30,6 @@ app.get('/projects/:id', (req, res, next) => {
         err.status = 404
         err.message =  "Oops. Looks like that project doesn't exist."
         res.render('error', { err })
-        next(err)
     }
 })
 
