@@ -41,14 +41,12 @@ app.use((req, res, next) => {
     err.status = 404
     err.message = "Oops. Looks like that page doesn't exist."
     res.render('page-not-found', { err })
-    next(err)
 })
 // global error
 app.use((err, req, res, next) => {
     err.status = err.status || 500
     err.message = err.message || "Oops. Looks like something went wrong on the server." 
     res.render('error', { err })
-    next(err)
 })
 
 // start server
