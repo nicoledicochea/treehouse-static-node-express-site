@@ -8,6 +8,8 @@ html(lang="en" dir="ltr")
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/css/normalize.css')
     link(rel='stylesheet', href='/css/styles.css')
+    //- add favicon
+    link(rel="shortcut icon", href="/images/favicon.png", type="image/x-icon")
 
   body
     #my-info.sidebar
@@ -27,6 +29,10 @@ html(lang="en" dir="ltr")
           p My goal is to contribute to impactful projects where I can apply my analytical mindset, attention to detail, and passion for creating efficient and user-friendly software solutions.
 
           a(href='/about') Learn More &rarr;
+          
+          //- add logo for sidebar
+          a(href='/')
+            img.logo(src="/images/logo_alt_color.png", alt="Logo")
 
     .wrapper
       .header
