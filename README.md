@@ -1,5 +1,11 @@
-# My Awesome Project
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+# Portfolio (Static Node and Express Site)
+A portfolio to showcase the projects I have worked on throughout the Treehouse course.
+
+<p align="center">
+<img alt="Screenshot of Portfolio" src="https://github.com/nicoledicochea/treehouse-static-node-express-site/assets/111663583/bac6bac7-c161-4ab1-a9bf-9a7ddd9c61c6"></img>
+</p>
+
+
 
 ## How It's Made:
 
